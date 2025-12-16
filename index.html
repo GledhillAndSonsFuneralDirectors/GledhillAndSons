@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gledhill & Sons Funeral Directors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function callOrScroll() {
+  // Detect if the user is on a mobile device
+  if (/Mobi|Android/i.test(navigator.userAgent)) {
+    // Mobile → dial the number
+    window.location.href = "tel:+441234567890";
+  } else {
+    // Desktop → scroll to contact section
+    document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
+  }
+}
+</script>
+<body>
+  <header>
+    <h1>Gledhill & Sons Funeral Directors</h1>
+    <p>Compassionate care, available 24/7</p>
+    <a href="#contact" class="cta">📞 Call Us Now</a>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+ <section id="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Gledhill & Sons Funeral Directors</h1>
+      <p>Compassionate care, available 24/7</p>
+      <a href="#contact" class="cta">📞 Call Us Now</a>
+      <h2>Supporting Families with Dignity and Care</h2>
+      <p>Here for you in difficult times</p>
+    </div>
+    <div class="hero-image">
+      <img src="images/shop photo.jpeg" alt="Gledhill & Sons Funeral directors">
+    </div>
+  </div>
+</section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are trusted funeral directors in Bromley, guiding families with compassion and professionalism.</p>
+    <img src="images/team.jpg" alt="Our team at Gledhill & Sons Funeral Directors" width="400">
+    </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Burials</li>
+      <li>Cremations</li>
+      <li>Memorial Planning</li>
+      <li>Pre-Planning Options</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>"We used gledhill & sons for a close relatives funeral, bex & her team were absolutely amazing from start to finish, so compassionate & caring, nothing was so too much trouble to give the perfect send off with everything that we wanted.
+We can not recommend enough 5 stars all the way 🌟 thank you so much.
+"</blockquote>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Phone: <a href="tel: +44 020 3488 8524">+44 020 3488 8524></a></p>
+    <p>📧 Email: gledhillandsons24@gmail.com</p>
+    <p>📍 Address: 108 Beckenham Lane, BR2 0DW, Bromley</p>
+  </section>
+
+  <footer>
+    <p>&copy; Gledhill & Sons Funeral Directors | Compassionate Care Always</p>
+  </footer>
+</body>
+</html>

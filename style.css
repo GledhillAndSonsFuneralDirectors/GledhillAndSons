@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9; /* light background for readability */
+  color: #000000; /* black text */
+}
+
+header {
+  background-color: #000000; /* black */
+  color: #d4af37; /* gold */
+  text-align: center;
+  padding: 20px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #d4af37; /* gold */
+  color: #000000; /* black text on gold */
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+nav {
+  background-color: #000000; /* black */
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #d4af37; /* gold links */
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #000000; /* black */
+  color: #d4af37; /* gold */
+  text-align: center;
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  background-color: #000000;
+  color: #d4af37;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #d4af37;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-image img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  flex: 1;
+}
+
